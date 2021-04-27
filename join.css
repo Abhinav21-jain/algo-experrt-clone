@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+body{
+  font-family: 'Playfair Display', serif;
+  background-color:  black;
+  color: aquamarine;
+}
+
+.logo{
+  transition: transform .7s ease-in-out;
+}
+.logo:hover{
+  transform: rotate(45deg);
+}
